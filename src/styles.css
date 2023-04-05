@@ -1,0 +1,52 @@
+html {
+  background-color: #eaf2f8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 16px;
+  width: 100%;
+}
+
+.crop-wrapper {
+  display: flex;
+  gap: 16px;
+  margin: 40px 0 0;
+}
+
+.crop-wrapper .crop__button-wrapper {
+  align-self: center;
+}
+
+.resize-cropper {
+  border: black 2px solid;
+  border-radius: 4px;
+  position: relative;
+  height: 480px;
+  width: 480px;
+}
+
+form input[type="file"] {
+  display: none;
+}
+
+.button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.images-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 64px 0 0;
+  gap: 16px;
+}
